@@ -1,0 +1,83 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #e554a4, #e8ecf3);
+    margin: 0;
+    padding: 0;
+    color: #1b1a1a;
+}
+
+header {
+    background-color: #2c2929;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.intro {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    object-fit: cover;
+    border: 5px solid   rgb(13, 13, 13);
+}
+
+.sobre {
+    margin-bottom: 50px;
+}
+
+.sobre h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.social-media a {
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
+}
